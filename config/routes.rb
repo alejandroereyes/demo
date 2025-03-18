@@ -1,7 +1,7 @@
-require 'sidekiq/web'
+require "sidekiq/web"
 
 Rails.application.routes.draw do
-  mount Sidekiq::Web => '/sidekiq'
+  mount Sidekiq::Web => "/sidekiq"
   devise_for :users
   get "homepage/index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
