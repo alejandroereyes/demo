@@ -25,6 +25,3 @@ exec git diff --cached --name-only --relative --diff-filter=ACMR | xargs \
                       --autocorrect-all --fail-level A \
                       --format simple \
                       --parallel --cache true \
-
-
-    # bundle exec rubocop --autocorrect-all --fail-level A
