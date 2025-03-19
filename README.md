@@ -9,7 +9,7 @@ A base configured rails app
 * Background job processing: [sidekiq](https://github.com/sidekiq/sidekiq)
 * Testing: [rspec](https://github.com/rspec/rspec-rails)
 * CSS: [bootstrap](https://getbootstrap.com/), [react-bootstrap](https://react-bootstrap.netlify.app/): react components
-* Workflow: [husky](https://github.com/typicode/husky) to run pre-commit hooks
+* Workflow: [husky](https://github.com/typicode/husky) to run pre-commit hooks, [editorconfig](https://editorconfig.org/) to configure IDE for consistent coding style
 
 #### Prerequisites
 
