@@ -1,11 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes as RoutesList, Route } from "react-router-dom";
 import Home from "../components/Home";
 
-export default () => (
+const Routes = () => (
     <Router>
-        <Routes>
+        <RoutesList>
             <Route path="/" element={<Home />} />
-        </Routes>
+        </RoutesList>
     </Router>
 );
+
+export default Routes

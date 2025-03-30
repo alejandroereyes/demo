@@ -24,4 +24,7 @@ exec git diff --cached --name-only --relative --diff-filter=ACMR | xargs \
   cd .. && bundle exec rubocop --force-exclusion \
                       --autocorrect-all --fail-level A \
                       --format simple \
-                      --parallel --cache true \
+                      --parallel --cache true
+
+echo "Running Eslint"
+exec yarn eslint
